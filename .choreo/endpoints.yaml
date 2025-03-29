@@ -15,7 +15,7 @@ endpoints:
     networkVisibility: Organization
     # +optional Context (base path) of the API that is exposed via this endpoint.
     # This is mandatory if the endpoint type is set to REST or GraphQL.
-    context: /internal
+    context: /internals
     # +optional Path to the schema definition file. Defaults to wild card route if not provided
     # This is only applicable to REST endpoint types.
     # The path should be relative to the docker context.
@@ -33,7 +33,7 @@ endpoints:
     networkVisibility: Public
     # +optional Context (base path) of the API that is exposed via this endpoint.
     # This is mandatory if the endpoint type is set to REST or GraphQL.
-    context: /external
+    context: /externals
     # +optional Path to the schema definition file. Defaults to wild card route if not provided
     # This is only applicable to REST endpoint types.
     # The path should be relative to the docker context.
@@ -51,7 +51,7 @@ endpoints:
     networkVisibility: Project
     # +optional Context (base path) of the API that is exposed via this endpoint.
     # This is mandatory if the endpoint type is set to REST or GraphQL.
-    context: /project
+    context: /projects
     # +optional Path to the schema definition file. Defaults to wild card route if not provided
     # This is only applicable to REST endpoint types.
     # The path should be relative to the docker context.
