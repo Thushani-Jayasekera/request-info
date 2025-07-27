@@ -77,4 +77,4 @@ endpoints:
 dependencies:
   connectionReferences:
   - name: newconnection
-    resourceRef: service:/thushani/eg/openaiapi-thushani/1.0.0/ORGANIZATION
+    resourceRef: service:/eg/openaiapi-thushani/1.0.0/ORGANIZATION
