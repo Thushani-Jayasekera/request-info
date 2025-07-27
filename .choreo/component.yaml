@@ -74,6 +74,8 @@ endpoints:
     # This is only applicable to REST or WS endpoint types.
     # The path should be relative to the docker context.
     schemaFilePath: request_info_openapi_any.yaml
+
 dependencies:
-  - name: testnormalgenai
-    resourceRef: thirdparty:genaiservice/1.0.0
+  connectionReferences:
+    - name: testnormalgenai
+      resourceRef: thirdparty:genaiservice/1.0.0
