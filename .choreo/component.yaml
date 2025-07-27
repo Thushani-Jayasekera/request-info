@@ -76,6 +76,6 @@ endpoints:
     schemaFilePath: request_info_openapi_any.yaml
 
 dependencies:
-  connectionReferences:
-    - name: testnormalgenai
+    connectionReferences:
+    - name: genaiserviceconnection
       resourceRef: thirdparty:genaiservice/1.0.0
