@@ -75,6 +75,5 @@ endpoints:
     # The path should be relative to the docker context.
     schemaFilePath: request_info_openapi_any.yaml
 dependencies:
-  connectionReferences:
-  - name: newconnection
-    resourceRef: service:/eg/openaiapi-thushani/1.0.0/ORGANIZATION
+  - name: testnormalgenai
+    resourceRef: thirdparty:genaiservice/1.0.0
