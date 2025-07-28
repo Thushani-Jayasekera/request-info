@@ -77,5 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: normalgenia
-      resourceRef: thirdparty:normalgenai/v1
+    - name: newconnection
+      resourceRef: service:/eg/openaiapi-thushani/1.0.0/proxy/ORGANIZATION
+
