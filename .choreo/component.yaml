@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: managedopenaiconenction
-      resourceRef: service:/eg/openaiapi-managed/v1/proxy/ORGANIZATION
+    - name: newmanagedgenaicon
+      resourceRef: service:/eg/openaiapimanagedqwe/v1/proxy/ORGANIZATION
 
