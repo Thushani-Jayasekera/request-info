@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: newmanagedgenaicon
-      resourceRef: service:/eg/openaiapimanagedqwe/v1/proxy/ORGANIZATION
+    - name: augustgenai
+      resourceRef: service:/_eg/auggenai/1.0.0/proxy/ORGANIZATION
 
