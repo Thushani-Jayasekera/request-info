@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: augustgenai
-      resourceRef: service:/_eg/auggenai/v1/proxy/ORGANIZATION
+    - name: openAIService
+      resourceRef: service:/_eg/OpenAIService/v1/proxy/ORGANIZATION
 
