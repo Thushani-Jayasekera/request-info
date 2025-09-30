@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: openAIService
+    - name: OpenAIService
       resourceRef: service:/_eg/OpenAIService/v1/proxy/ORGANIZATION
 
