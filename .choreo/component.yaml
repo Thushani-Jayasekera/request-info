@@ -79,4 +79,6 @@ dependencies:
     connectionReferences:
     - name: OpenAIService
       resourceRef: service:/_eg/OpenAIService/v1/proxy/ORGANIZATION
+    - name: azureservice
+      resourceRef: service:/_eg/azureopenaiserviceapi/v1/proxy/ORGANIZATION
 
