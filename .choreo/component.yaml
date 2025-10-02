@@ -78,5 +78,5 @@ endpoints:
 dependencies:
     connectionReferences:
     - name: aiappcon
-      resourceRef: service:/default/aiapp/v1/00adb/PUBLIC
+      resourceRef: service:/default/abba/v1/00adb/PUBLIC
 
