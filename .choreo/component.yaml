@@ -81,4 +81,6 @@ dependencies:
       resourceRef: service:/_eg/OpenAIService/v1/proxy/ORGANIZATION
     - name: azureservice
       resourceRef: service:/_eg/azureopenaiserviceapi/v1/proxy/ORGANIZATION
+    - name: awscon
+      resourceRef: service:/default/awsbedrockapi/v1/proxy/PROJECT
 
