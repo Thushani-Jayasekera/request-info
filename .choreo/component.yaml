@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: aiappcon
-      resourceRef: service:/default/abba/v1/00adb/PUBLIC
+    - name: awscondev
+      resourceRef: service:/default/awsbedrockapi/v1/proxy/PROJECT
 
