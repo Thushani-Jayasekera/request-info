@@ -77,6 +77,6 @@ endpoints:
 
 dependencies:
     connectionReferences:
-    - name: awscondev
-      resourceRef: service:/default/awsbedrockapi/v1/proxy/PROJECT
+    - name: openaiconnection
+      resourceRef: service:/thushani/openaiapi/v1/proxy/PROJECT
 
